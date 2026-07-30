@@ -104,8 +104,12 @@
   .quotes h2{text-align:center;font-size:clamp(2.2rem,4vw,3.2rem);margin-bottom:40px}
   .qgrid{display:grid;grid-template-columns:repeat(3,1fr);gap:24px}
   .quote{background:var(--cream);border-radius:16px;padding:26px 26px;display:flex;flex-direction:column}
-  .quote p{font-family:'Hanken Grotesk',sans-serif;font-weight:400;font-size:1.02rem;line-height:1.5;color:var(--ink);margin-bottom:18px;flex:1}
-  .quote .who{font-size:.86rem;font-weight:600;letter-spacing:.03em;color:var(--muted)}
+  .quote p{font-family:'Hanken Grotesk',sans-serif;font-weight:400;font-size:1.02rem;line-height:1.5;color:var(--ink);margin-bottom:12px}
+  .quote.clamp p{display:-webkit-box;-webkit-line-clamp:6;-webkit-box-orient:vertical;overflow:hidden}
+  .quote.open.clamp p{-webkit-line-clamp:unset;display:block;overflow:visible}
+  .quote .more{align-self:flex-start;background:none;border:0;padding:0;margin-bottom:14px;color:var(--sand-deep);font-family:inherit;font-weight:600;font-size:.9rem;cursor:pointer}
+  .quote .more:hover{text-decoration:underline}
+  .quote .who{margin-top:auto;font-size:.86rem;font-weight:600;letter-spacing:.03em;color:var(--muted)}
   .quote .who span{color:var(--sand-deep)}
   .avail{background:var(--green);color:var(--cream);padding:56px 0}
   .avail .eyebrow{color:var(--sand-soft)}
