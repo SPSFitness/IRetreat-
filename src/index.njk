@@ -31,7 +31,7 @@
     </div>
   </div>
   <div class="hero-img">
-    <img src="{{ home.hero.image }}" alt="{{ seo.business.name }}, central Portugal">
+    <img src="{{ home.hero.image }}" alt="{{ seo.business.name }}, central Portugal" fetchpriority="high">
   </div>
 </section>
 
@@ -70,7 +70,7 @@
     </div>
     <div class="bento">
       {% for g in home.space.gallery %}
-      <figure class="b{{ loop.index }}"><img src="{{ g.image }}" alt="{{ g.caption }}"><figcaption>{{ g.caption }}</figcaption></figure>
+      <figure class="b{{ loop.index }}"><img src="{{ g.image }}" alt="{{ g.caption }}" loading="lazy" decoding="async"><figcaption>{{ g.caption }}</figcaption></figure>
       {% endfor %}
     </div>
   </div>
