@@ -1,105 +1,113 @@
 hero:
-  eyebrow: "Private retreat venue · Central Portugal"
-  heading: "Host your retreat, beautifully handled."
-  heading_accent: "beautifully"
-  intro: "A private, fully-equipped quinta in the hills of central Portugal, for yoga, wellness and fitness leaders who want to focus on their people, not the logistics."
-  image: "/images/hero.jpg"
+  eyebrow: Private retreat venue · Central Portugal
+  heading: Host your retreat, beautifully handled.
+  heading_accent: beautifully
+  intro: A private, fully-equipped quinta in the hills of central Portugal, for
+    yoga, wellness and fitness leaders who want to focus on their people, not
+    the logistics.
+  image: /images/hero.jpg
   stats:
-    - num: "15"
-      label: "Guests, exclusive use"
+    - num: "14"
+      label: Guests, exclusive use
     - num: "1"
-      label: "Private property, all yours"
-    - num: "∞"
-      label: "Support, zero interference"
-
+      label: Private property, all yours
+    - num: ∞
+      label: Support, zero interference
 strip:
-  - "Yoga & meditation shala"
-  - "Saltwater pool & sauna"
-  - "Fully-equipped gym"
-  - "Lisbon airport transfers"
-  - "Fresh, local menu"
-
+  - Yoga & meditation shala
+  - Saltwater pool & sauna
+  - Fully-equipped gym
+  - Lisbon airport transfers
+  - Fresh, local menu
 intro_section:
-  eyebrow: "Why leaders choose iRetreat"
-  heading: "Not just a venue, but a space built for transformation."
-  accent: "transformation."
-  lede: "Whether you guide through yoga, coaching, meditation or fitness, the property adapts to your flow. We take care of the setting and the support, so you stay entirely present with your group and your message."
-
-features_eyebrow: "Everything included"
-features_heading: "Turnkey from the moment your guests arrive."
+  eyebrow: Why leaders choose iRetreat
+  heading: Not just a venue, but a space built for transformation.
+  accent: transformation.
+  lede: Whether you guide through yoga, coaching, meditation or fitness, the
+    property adapts to your flow. We take care of the setting and the support,
+    so you stay entirely present with your group and your message.
+features_eyebrow: Everything included
+features_heading: Turnkey from the moment your guests arrive.
 features:
   - num: "01"
-    title: "Exclusive use"
-    text: "The entire property is yours for the week: private, uninterrupted, and set up for groups of up to 15."
+    title: Exclusive use
+    text: "The entire property is yours for the week: private, uninterrupted, and
+      set up for groups of up to 15."
   - num: "02"
-    title: "Practice spaces"
-    text: "Indoor yoga & meditation shala plus an outdoor deck, ready for whatever your programme demands."
+    title: Practice spaces
+    text: Indoor yoga & meditation shala plus an outdoor deck, ready for whatever
+      your programme demands.
   - num: "03"
-    title: "Pool, sauna & gym"
-    text: "Saltwater pool, sauna, a fully-equipped gym and open gardens for recovery and connection."
+    title: Pool, sauna & gym
+    text: Saltwater pool, sauna, a fully-equipped gym and open gardens for recovery
+      and connection.
   - num: "04"
-    title: "Airport transfers"
-    text: "Transfer support from Lisbon arranged for your group, so arrival is smooth from the first moment."
+    title: Airport transfers
+    text: Transfer support from Lisbon arranged for your group, so arrival is smooth
+      from the first moment.
   - num: "05"
-    title: "Real host profit"
-    text: "Honest, affordable pricing that leaves genuine margin, so leading a retreat grows your business."
+    title: Real host profit
+    text: Honest, affordable pricing that leaves genuine margin, so leading a
+      retreat grows your business.
   - num: "06"
-    title: "Support, not interference"
-    text: "On-site help whenever you need it, and complete space when you don't. Your retreat stays yours."
-
+    title: Support, not interference
+    text: On-site help whenever you need it, and complete space when you don't. Your
+      retreat stays yours.
 space:
-  eyebrow: "The space"
-  heading: "Silence, green hills, and clean air."
-  intro: "A private hillside setting designed to support group flow, whether your retreat is energising, restorative, or both."
+  eyebrow: The space
+  heading: Silence, green hills, and clean air.
+  intro: A private hillside setting designed to support group flow, whether your
+    retreat is energising, restorative, or both.
   gallery:
-    - image: "/images/pool-night.jpg"
-      caption: "The pool, after dark"
-    - image: "/images/domes.jpg"
-      caption: "Domes in the hills"
-    - image: "/images/food.jpg"
-      caption: "Fresh, local food"
-    - image: "/images/sauna.jpg"
-      caption: "Infrared sauna"
-    - image: "/images/lounge.jpg"
-      caption: "Lounge & dining"
-    - image: "/images/firepit.jpg"
-      caption: "Fire pit evenings"
-    - image: "/images/kitchen.jpg"
-      caption: "The kitchen"
-
-how_eyebrow: "How it works"
-how_heading: "Four steps from idea to retreat."
+    - image: /images/pool-night.jpg
+      caption: The pool, after dark
+    - image: /images/domes.jpg
+      caption: Domes in the hills
+    - image: /images/food.jpg
+      caption: Fresh, local food
+    - image: /images/sauna.jpg
+      caption: Infrared sauna
+    - image: /images/lounge.jpg
+      caption: Lounge & dining
+    - image: /images/firepit.jpg
+      caption: Fire pit evenings
+    - image: /images/kitchen.jpg
+      caption: The kitchen
+how_eyebrow: How it works
+how_heading: Four steps from idea to retreat.
 how:
   - num: "01"
-    title: "Choose your dates"
-    text: "Check availability and lock in the week that works for you and your group."
+    title: Choose your dates
+    text: Check availability and lock in the week that works for you and your group.
   - num: "02"
-    title: "Promote your retreat"
-    text: "Fill your places with our imagery, brochures and host resources behind you."
+    title: Promote your retreat
+    text: Fill your places with our imagery, brochures and host resources behind you.
   - num: "03"
-    title: "Plan with support"
-    text: "Menus, transfers and schedule, planned together and handled for you."
+    title: Plan with support
+    text: Menus, transfers and schedule, planned together and handled for you.
   - num: "04"
-    title: "Arrive and lead"
-    text: "Turn up to a space that's ready, and do the work only you can do."
-
-testimonials_eyebrow: "What hosts say"
-testimonials_heading: "Retreats they're proud to run."
+    title: Arrive and lead
+    text: Turn up to a space that's ready, and do the work only you can do.
+testimonials_eyebrow: What hosts say
+testimonials_heading: Retreats they're proud to run.
 testimonials:
-  - quote: "Everything was handled before I even arrived. I ran the best retreat of my career."
-    name: "Yoga host"
-    country: "UK"
-  - quote: "The space does half the selling for you. My group didn't stop talking about it."
-    name: "Fitness coach"
-    country: "Ireland"
-  - quote: "Support when I wanted it, invisible when I didn't. That balance is exactly right."
-    name: "Wellness facilitator"
-    country: "Netherlands"
-
+  - quote: Everything was handled before I even arrived. I ran the best retreat of
+      my career.
+    name: Yoga host
+    country: UK
+  - quote: The space does half the selling for you. My group didn't stop talking
+      about it.
+    name: Fitness coach
+    country: Ireland
+  - quote: Support when I wanted it, invisible when I didn't. That balance is
+      exactly right.
+    name: Wellness facilitator
+    country: Netherlands
 availability:
-  eyebrow: "Plan your retreat"
-  heading: "Check your dates for 2026 & 2027."
-  intro: "Tell us who you are and when you'd like to host. We'll come back quickly with availability and a straightforward next step."
-  email: "info@iretreat.pt"
-  phone: "+351 961 051 487"
-  address: "R. da Tojeira, 3250-330 Pelmá, Portugal"
+  eyebrow: Plan your retreat
+  heading: Check your dates for 2026 & 2027.
+  intro: Tell us who you are and when you'd like to host. We'll come back quickly
+    with availability and a straightforward next step.
+  email: info@iretreat.pt
+  phone: +351 961 051 487
+  address: R. da Tojeira, 3250-330 Pelmá, Portugal
