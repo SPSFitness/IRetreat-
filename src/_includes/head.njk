@@ -1,0 +1,44 @@
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>{{ seo.title }}</title>
+<meta name="description" content="{{ seo.description }}">
+<link rel="canonical" href="{{ site.url }}/">
+
+<!-- Open Graph / social sharing -->
+<meta property="og:type" content="website">
+<meta property="og:title" content="{{ seo.title }}">
+<meta property="og:description" content="{{ seo.description }}">
+<meta property="og:url" content="{{ site.url }}/">
+<meta property="og:image" content="{{ site.url }}{{ seo.og_image }}">
+<meta name="twitter:card" content="summary_large_image">
+
+<!-- Local business structured data -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "{{ seo.business.type }}",
+  "name": "{{ seo.business.name }}",
+  "url": "{{ seo.business.url }}",
+  "telephone": "{{ seo.business.telephone }}",
+  "email": "{{ seo.business.email }}",
+  "image": "{{ site.url }}{{ seo.og_image }}",
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "{{ seo.business.street }}",
+    "addressLocality": "{{ seo.business.locality }}",
+    "postalCode": "{{ seo.business.postcode }}",
+    "addressRegion": "{{ seo.business.region }}",
+    "addressCountry": "{{ seo.business.country }}"
+  },
+  "geo": {
+    "@type": "GeoCoordinates",
+    "latitude": "{{ seo.business.latitude }}",
+    "longitude": "{{ seo.business.longitude }}"
+  }
+}
+</script>
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,400;12..96,500;12..96,600;12..96,700;12..96,800&family=Hanken+Grotesk:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="/css/styles.css">

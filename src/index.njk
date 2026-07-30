@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+{% include "head.njk" %}
+</head>
+<body>
+
+<header id="hdr">
+  <a class="brand" href="/"><img src="/images/logo.png" alt="{{ seo.business.name }}"></a>
+  <nav>
+    <a class="link" href="#space">The space</a>
+    <a class="link" href="#how">How it works</a>
+    <a class="link" href="#quotes">Hosts</a>
+    <a class="btn" href="#avail">Check availability</a>
+  </nav>
+</header>
+
+<section class="hero">
+  <div class="hero-copy">
+    <span class="eyebrow">{{ home.hero.eyebrow }}</span>
+    <h1>{{ home.hero.heading | replace(home.hero.heading_accent, "<em>" + home.hero.heading_accent + "</em>") | safe }}</h1>
+    <p>{{ home.hero.intro }}</p>
+    <div class="hero-cta">
+      <a class="btn" href="#avail">Check availability</a>
+      <a class="btn outline" href="#space">See the space</a>
+    </div>
+    <div class="hero-stats">
+      {% for s in home.hero.stats %}
+      <div><span class="num">{{ s.num }}</span><span class="lbl">{{ s.label }}</span></div>
+      {% endfor %}
+    </div>
+  </div>
+  <div class="hero-img">
+    <img src="{{ home.hero.image }}" alt="{{ seo.business.name }}, central Portugal">
+  </div>
+</section>
+
+<div class="strip">
+  <div class="wrap">
+    {% for item in home.strip %}<span>{{ item }}</span>{% endfor %}
+  </div>
+</div>
+
+<section class="intro wrap">
+  <span class="eyebrow">{{ home.intro_section.eyebrow }}</span>
+  <h2>{{ home.intro_section.heading | replace(home.intro_section.accent, "<em>" + home.intro_section.accent + "</em>") | safe }}</h2>
+  <p class="lede">{{ home.intro_section.lede }}</p>
+</section>
+
+<section class="why wrap">
+  <div class="why-head">
+    <span class="eyebrow">{{ home.features_eyebrow }}</span>
+    <h2>{{ home.features_heading }}</h2>
+  </div>
+  <div class="fgrid">
+    {% for f in home.features %}
+    <div class="fcard"><span class="k">{{ f.num }}</span><h3>{{ f.title }}</h3><p>{{ f.text }}</p></div>
+    {% endfor %}
+  </div>
+</section>
+
+<section class="space" id="space">
+  <div class="wrap">
+    <div class="space-head">
+      <div>
+        <span class="eyebrow">{{ home.space.eyebrow }}</span>
+        <h2>{{ home.space.heading }}</h2>
+      </div>
+      <p>{{ home.space.intro }}</p>
+    </div>
+    <div class="bento">
+      {% for g in home.space.gallery %}
+      <figure class="b{{ loop.index }}"><img src="{{ g.image }}" alt="{{ g.caption }}"><figcaption>{{ g.caption }}</figcaption></figure>
+      {% endfor %}
+    </div>
+  </div>
+</section>
+
+<section class="how wrap" id="how">
+  <div class="how-head">
+    <span class="eyebrow">{{ home.how_eyebrow }}</span>
+    <h2>{{ home.how_heading }}</h2>
+  </div>
+  <div class="steps">
+    {% for step in home.how %}
+    <div class="step{% if loop.first %} active{% endif %}"><span class="num">{{ step.num }}</span><h3>{{ step.title }}</h3><p>{{ step.text }}</p></div>
+    {% endfor %}
+  </div>
+</section>
+
+<section class="quotes" id="quotes">
+  <div class="wrap">
+    <span class="eyebrow">{{ home.testimonials_eyebrow }}</span>
+    <h2 class="serif">{{ home.testimonials_heading }}</h2>
+    <div class="qgrid">
+      {% for t in home.testimonials %}
+      <div class="quote"><p>{{ t.quote }}</p><div class="who">{{ t.name }} · <span>{{ t.country }}</span></div></div>
+      {% endfor %}
+    </div>
+  </div>
+</section>
+
+<section class="avail" id="avail">
+  <div class="wrap avail-grid">
+    <div>
+      <span class="eyebrow">{{ home.availability.eyebrow }}</span>
+      <h2>{{ home.availability.heading }}</h2>
+      <p class="lede">{{ home.availability.intro }}</p>
+      <div class="contactline">
+        <a href="mailto:{{ home.availability.email }}">{{ home.availability.email }}</a><br>
+        <a href="tel:{{ home.availability.phone | replace(' ', '') }}">{{ home.availability.phone }}</a><br>
+        {{ home.availability.address }}
+      </div>
+    </div>
+    <div class="form">
+      <div class="row">
+        <div class="field"><label>First name</label><input type="text" placeholder="Your name"></div>
+        <div class="field"><label>Email</label><input type="email" placeholder="you@email.com"></div>
+      </div>
+      <div class="row">
+        <div class="field"><label>Preferred dates</label><input type="text" placeholder="e.g. May 2027"></div>
+        <div class="field"><label>Group size</label><input type="text" placeholder="Up to 15"></div>
+      </div>
+      <div class="field"><label>About your retreat</label><textarea placeholder="Discipline, style, anything we should know..."></textarea></div>
+      <button class="btn light" type="button">Request availability</button>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="wrap">
+    <div class="foot-top">
+      <div>
+        <div class="foot-brand"><img src="/images/logo.png" alt="{{ seo.business.name }}"></div>
+        <p class="foot-lead">Private retreat venue in the hills of central Portugal, for leaders who want to focus on their people.</p>
+      </div>
+      <div class="foot-cols">
+        <div class="foot-col"><h4>Explore</h4><a href="#space">The space</a><a href="#how">How it works</a><a href="#quotes">Hosts</a><a href="#avail">Availability</a></div>
+        <div class="foot-col"><h4>Contact</h4><a href="mailto:{{ home.availability.email }}">{{ home.availability.email }}</a><a href="tel:{{ home.availability.phone | replace(' ', '') }}">{{ home.availability.phone }}</a><p>{{ seo.business.locality }}, Portugal</p></div>
+        <div class="foot-col"><h4>Follow</h4><a href="#">Instagram</a><a href="#">Facebook</a><a href="#">YouTube</a></div>
+      </div>
+    </div>
+    <div class="foot-bottom">
+      <span>&copy; 2026 {{ seo.business.name }}</span>
+      <span class="credit">Site by <b>SPS Web &amp; Digital</b></span>
+    </div>
+  </div>
+</footer>
+
+<script>
+  const hdr=document.getElementById('hdr');
+  const onScroll=()=>hdr.classList.toggle('scrolled',window.scrollY>60);
+  onScroll();window.addEventListener('scroll',onScroll,{passive:true});
+  const io=new IntersectionObserver((es)=>{es.forEach(e=>{if(e.isIntersecting){e.target.classList.add('in');io.unobserve(e.target)}})},{threshold:.14});
+  document.querySelectorAll('.reveal').forEach(el=>io.observe(el));
+</script>
+</body>
+</html>

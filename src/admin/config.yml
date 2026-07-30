@@ -1,0 +1,123 @@
+# =============================================================
+#  DECAP CMS CONFIG
+#  Only the fields listed here appear in the client's panel.
+#  seo.yml and site.yml are intentionally NOT listed, so the
+#  client cannot see or change SEO, schema, or the domain.
+#
+#  AUTH: this uses DecapBridge (Netlify Identity is deprecated).
+#  Replace the two placeholder URLs below with the ones from
+#  your DecapBridge dashboard for this site. See README.
+# =============================================================
+
+backend:
+  name: git-gateway
+  branch: main
+  identity_url: "https://auth.decapbridge.com/sites/REPLACE_WITH_SITE_ID"
+  gateway_url: "https://gateway.decapbridge.com"
+
+site_url: "https://www.iretreat.pt"
+display_url: "https://www.iretreat.pt"
+
+media_folder: "src/images"
+public_folder: "/images"
+
+collections:
+  - name: "content"
+    label: "Website content"
+    delete: false
+    files:
+      - name: "home"
+        label: "Homepage"
+        file: "src/_data/home.yml"
+        fields:
+          - label: "Hero"
+            name: "hero"
+            widget: "object"
+            fields:
+              - { label: "Eyebrow", name: "eyebrow", widget: "string" }
+              - { label: "Headline", name: "heading", widget: "string" }
+              - { label: "Highlighted word (from the headline)", name: "heading_accent", widget: "string", hint: "Must exactly match a word in the headline. It gets the accent colour." }
+              - { label: "Intro paragraph", name: "intro", widget: "text" }
+              - { label: "Hero photo", name: "image", widget: "image" }
+              - label: "Stats"
+                name: "stats"
+                widget: "list"
+                max: 3
+                fields:
+                  - { label: "Number", name: "num", widget: "string" }
+                  - { label: "Label", name: "label", widget: "string" }
+
+          - label: "Feature strip"
+            name: "strip"
+            widget: "list"
+            max: 6
+            field: { label: "Item", name: "item", widget: "string" }
+
+          - label: "Intro section"
+            name: "intro_section"
+            widget: "object"
+            fields:
+              - { label: "Eyebrow", name: "eyebrow", widget: "string" }
+              - { label: "Heading", name: "heading", widget: "string" }
+              - { label: "Highlighted word (from the heading)", name: "accent", widget: "string" }
+              - { label: "Paragraph", name: "lede", widget: "text" }
+
+          - { label: "Features eyebrow", name: "features_eyebrow", widget: "string" }
+          - { label: "Features heading", name: "features_heading", widget: "string" }
+          - label: "Features"
+            name: "features"
+            widget: "list"
+            max: 6
+            fields:
+              - { label: "Number", name: "num", widget: "string" }
+              - { label: "Title", name: "title", widget: "string" }
+              - { label: "Text", name: "text", widget: "text" }
+
+          - label: "Gallery section"
+            name: "space"
+            widget: "object"
+            fields:
+              - { label: "Eyebrow", name: "eyebrow", widget: "string" }
+              - { label: "Heading", name: "heading", widget: "string" }
+              - { label: "Intro", name: "intro", widget: "text" }
+              - label: "Photos (keep to 7, order matters for the layout)"
+                name: "gallery"
+                widget: "list"
+                min: 7
+                max: 7
+                fields:
+                  - { label: "Photo", name: "image", widget: "image" }
+                  - { label: "Caption", name: "caption", widget: "string" }
+
+          - { label: "How it works eyebrow", name: "how_eyebrow", widget: "string" }
+          - { label: "How it works heading", name: "how_heading", widget: "string" }
+          - label: "Steps"
+            name: "how"
+            widget: "list"
+            max: 4
+            fields:
+              - { label: "Number", name: "num", widget: "string" }
+              - { label: "Title", name: "title", widget: "string" }
+              - { label: "Text", name: "text", widget: "text" }
+
+          - { label: "Testimonials eyebrow", name: "testimonials_eyebrow", widget: "string" }
+          - { label: "Testimonials heading", name: "testimonials_heading", widget: "string" }
+          - label: "Testimonials"
+            name: "testimonials"
+            widget: "list"
+            max: 6
+            fields:
+              - { label: "Quote", name: "quote", widget: "text" }
+              - { label: "Name", name: "name", widget: "string" }
+              - { label: "Country", name: "country", widget: "string" }
+
+          - label: "Availability section"
+            name: "availability"
+            widget: "object"
+            fields:
+              - { label: "Eyebrow", name: "eyebrow", widget: "string" }
+              - { label: "Heading", name: "heading", widget: "string" }
+              - { label: "Intro", name: "intro", widget: "text" }
+              - { label: "Email", name: "email", widget: "string" }
+              - { label: "Phone", name: "phone", widget: "string" }
+              - { label: "Address", name: "address", widget: "string" }

@@ -1,0 +1,24 @@
+# =============================================================
+#  SEO + STRUCTURED DATA  -  MANAGED BY SPS WEB & DIGITAL
+#  This file is deliberately NOT listed in src/admin/config.yml,
+#  so it never appears in the client's editing panel.
+#  Edit these values yourself in the repo.
+# =============================================================
+
+title: "iRetreat | Private Retreat Venue in Central Portugal"
+description: "A private, fully-equipped retreat venue in the hills of central Portugal for yoga, wellness and fitness leaders. Exclusive use, turnkey host support, Lisbon airport transfers."
+og_image: "/images/hero.jpg"
+
+business:
+  name: "iRetreat"
+  type: "LodgingBusiness"
+  url: "https://www.iretreat.pt"
+  telephone: "+351961051487"
+  email: "info@iretreat.pt"
+  street: "R. da Tojeira"
+  locality: "Pelmá"
+  postcode: "3250-330"
+  region: "Leiria"
+  country: "PT"
+  latitude: "39.7436"
+  longitude: "-8.3050"

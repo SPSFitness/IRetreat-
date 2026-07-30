@@ -1,0 +1,3 @@
+# Base URL, used for canonical, sitemap, robots and Open Graph.
+# Set this to the client's live domain before going live.
+url: "https://www.iretreat.pt"
