@@ -19,6 +19,7 @@
   img{display:block;max-width:100%}
   a{color:inherit;text-decoration:none}
   .wrap{max-width:1240px;margin:0 auto;padding:0 40px}
+  .space,.how,.quotes,.avail{scroll-margin-top:84px}
   .serif{font-family:'Bricolage Grotesque',system-ui,sans-serif;font-weight:700;letter-spacing:-.02em}
   h1,h2,h3{font-family:'Bricolage Grotesque',system-ui,sans-serif;font-weight:700;line-height:1.04;letter-spacing:-.02em}
   .eyebrow{font-family:'Hanken Grotesk',sans-serif;font-size:.74rem;font-weight:600;letter-spacing:.24em;text-transform:uppercase;color:var(--sand-deep);}
@@ -143,7 +144,7 @@
     .hero-copy{padding:38px 40px 50px;order:2}
     .hero-img{order:1;min-height:58vh}
     .fgrid{grid-template-columns:1fr 1fr}
-    .steps{grid-template-columns:1fr 1fr;gap:40px}
+    .steps{grid-template-columns:1fr 1fr;gap:28px 40px}
     .qgrid{grid-template-columns:1fr}
     .avail-grid{grid-template-columns:1fr;gap:44px}
     .bento{grid-template-columns:repeat(2,1fr);grid-auto-rows:185px}
@@ -155,9 +156,38 @@
     header{padding:16px 22px}
     header.scrolled{padding:12px 22px}
     nav .link{display:none}
-    .hero-copy{padding:30px 24px 42px}
+    nav{gap:0}
+
+    /* hero */
+    .hero-img{min-height:52vh}
+    .hero-copy{padding:28px 22px 40px}
+    .hero-copy h1{font-size:2.5rem;line-height:1.02}
+    .hero-copy p{font-size:1.05rem}
+    .hero-stats{gap:18px 26px;margin-top:28px}
+    .hero-stats .num{font-size:1.6rem}
+    .hero-stats .lbl{font-size:.74rem}
+
+    /* feature strip: even, readable, left aligned */
+    .strip .wrap{padding:18px 22px;justify-content:flex-start;gap:10px 20px}
+    .strip span{font-size:.82rem}
+
+    /* section rhythm, a touch tighter on phones */
+    .intro{padding:44px 0}
+    .why{padding:0 0 48px}
+    .space{padding:48px 0}
+    .how{padding:48px 0}
+    .quotes{padding:48px 0}
+    .avail{padding:48px 0}
+
+    /* headings sit better at phone width */
+    .intro h2,.space-head h2,.why-head h2,.how-head h2,.avail h2,.quotes h2{font-size:2.05rem}
+
+    /* stacks */
     .fgrid{grid-template-columns:1fr}
-    .steps{grid-template-columns:1fr}
+    .steps{grid-template-columns:1fr;gap:26px}
     .row{grid-template-columns:1fr}
-    .strip .wrap{padding:20px 22px}
+    .bento{gap:12px}
+    .form{padding:24px}
+    .foot-top{gap:26px}
+    .foot-cols{gap:34px}
   }
