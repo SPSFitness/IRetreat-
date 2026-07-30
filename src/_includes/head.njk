@@ -41,4 +41,23 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,400;12..96,500;12..96,600;12..96,700;12..96,800&family=Hanken+Grotesk:wght@400;500;600;700;800&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="/css/styles.css">
+<link rel="stylesheet" href="/css/styles.css?v=4">
+
+<!-- Collapse long testimonials with a Read more toggle -->
+<script>
+window.addEventListener('load',function(){
+  document.querySelectorAll('.quote').forEach(function(q){
+    var p=q.querySelector('p'); if(!p) return;
+    if(p.scrollHeight>170){
+      q.classList.add('clamp');
+      var b=document.createElement('button');
+      b.type='button'; b.className='more'; b.textContent='Read more';
+      p.insertAdjacentElement('afterend',b);
+      b.addEventListener('click',function(){
+        var open=q.classList.toggle('open');
+        b.textContent=open?'Read less':'Read more';
+      });
+    }
+  });
+});
+</script>
