@@ -74,13 +74,13 @@
   .fcard p{font-size:.98rem;color:var(--muted)}
   .biz{padding:44px 0}
   .biz-box{background:var(--cream-panel);border-radius:24px;padding:52px clamp(24px,5vw,72px);text-align:center}
-  .biz-head{max-width:40ch;margin:0 auto 28px}
+  .biz-head{max-width:40ch;margin:0 auto 28px;text-align:center}
   .biz-head h2{font-size:clamp(2rem,3.6vw,3rem);margin-top:12px}
   .biz-points{display:grid;grid-template-columns:repeat(3,1fr);gap:28px;margin-bottom:38px}
   .biz-point{display:flex;flex-direction:column;align-items:center}
   .biz-point .bn{font-family:'Bricolage Grotesque',sans-serif;font-weight:700;font-size:1.05rem;letter-spacing:.06em;text-transform:uppercase;color:var(--sand-deep);display:block;margin-bottom:8px}
   .biz-point p{font-size:1rem;color:var(--muted);max-width:26ch}
-  .biz-support{max-width:60ch;margin:0 auto}
+  .biz-support{background:var(--cream-panel);border-radius:16px;max-width:640px;margin:0 auto;padding:8px 20px}
   .biz-support h3{font-size:clamp(1.5rem,2.6vw,2rem);margin-bottom:12px}
   .biz-support p{font-size:1.05rem;color:var(--muted);margin:0 auto}
   .space{background:var(--green);color:var(--cream);padding:56px 0}
@@ -188,10 +188,11 @@
     .intro{padding-top:44px;padding-bottom:44px}
     .why{padding-bottom:36px}
     .biz{padding:28px 0}
-    .biz-box{padding:40px 24px}
+    .biz-box{padding:36px 22px}
     .biz-head{margin-bottom:22px}
     .biz-points{grid-template-columns:1fr;gap:22px;margin-bottom:28px}
     .biz-point p{max-width:100%}
+    .biz-support{padding:6px 12px}
     .space{padding:48px 0}
     .how{padding-top:48px;padding-bottom:48px}
     .quotes{padding:48px 0}
