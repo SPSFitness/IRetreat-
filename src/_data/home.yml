@@ -8,12 +8,12 @@ hero:
     hosting easier.
   image: /images/hero.jpg
   stats:
-    - num: "14"
+    - num: "16"
       label: Guests, exclusive use
     - num: "1"
       label: Private property, all yours
-    - num: ∞
-      label: Support, zero interference
+    - num: 30 days
+      label: Soft hold before payment
 strip:
   - Yoga & meditation shala
   - Saltwater pool & sauna
