@@ -97,10 +97,10 @@
   .bento figcaption{position:absolute;left:20px;bottom:18px;z-index:2;font-family:'Bricolage Grotesque',sans-serif;font-weight:600;font-size:1.25rem;letter-spacing:-.01em;color:#fff;text-shadow:0 2px 12px rgba(0,0,0,.45)}
   .space-cta{margin-top:34px;text-align:center}
   .how{padding-top:56px;padding-bottom:56px}
-  .how-head{max-width:40ch;margin-bottom:40px}
+  .how-head{max-width:40ch;margin:0 auto 40px;text-align:center}
   .how-head h2{font-size:clamp(2.2rem,4vw,3.4rem);margin-top:14px}
   .steps{display:grid;grid-template-columns:repeat(4,1fr);gap:34px}
-  .step{position:relative;padding-top:26px;border-top:2px solid var(--line)}
+  .step{position:relative;padding-top:26px;border-top:2px solid var(--line);text-align:center}
   .step.active{border-top-color:var(--sand)}
   .step .num{font-family:'Bricolage Grotesque',sans-serif;font-weight:800;font-size:3rem;color:var(--green);line-height:.9;display:block;margin-bottom:16px}
   .step h3{font-size:1.5rem;margin-bottom:8px}
