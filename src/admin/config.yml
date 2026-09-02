@@ -3,10 +3,6 @@
 #  Only the fields listed here appear in the client's panel.
 #  seo.yml and site.yml are intentionally NOT listed, so the
 #  client cannot see or change SEO, schema, or the domain.
-#
-#  AUTH: this uses DecapBridge (Netlify Identity is deprecated).
-#  Replace the two placeholder URLs below with the ones from
-#  your DecapBridge dashboard for this site. See README.
 # =============================================================
 
 # Use DecapBridge PKCE auth (required)
@@ -19,7 +15,6 @@ backend:
   auth_endpoint: /sites/42ff9e7f-b157-4ce0-a551-7e94d09b8fc9/pkce
   auth_token_endpoint: /sites/42ff9e7f-b157-4ce0-a551-7e94d09b8fc9/token
   gateway_url: https://gateway.decapbridge.com
-  # See who did what (optional)
   commit_messages:
     create: 'Create {{collection}} "{{slug}}" - {{author-name}} <{{author-login}}> via DecapBridge'
     update: 'Update {{collection}} "{{slug}}" - {{author-name}} <{{author-login}}> via DecapBridge'
@@ -28,18 +23,16 @@ backend:
     deleteMedia: 'Delete "{{path}}" - {{author-name}} <{{author-login}}> via DecapBridge'
     openAuthoring: 'Message {{message}} - {{author-name}} <{{author-login}}> via DecapBridge'
 
-# Enable PKCE fields (optional, recommended)
 auth:
   email_claim: email
   first_name_claim: first_name
   last_name_claim: last_name
   avatar_url_claim: avatar_url
 
-# Better Decap + Bridge logo (optional)
 logo_url: https://decapbridge.com/decapcms-with-bridge.svg
 
-site_url: "https://iretreat.netlify.app"
-display_url: "https://iretreat.netlify.app"
+site_url: "https://iretreat.pt"
+display_url: "https://iretreat.pt"
 
 media_folder: "src/images"
 public_folder: "/images"
@@ -96,6 +89,22 @@ collections:
               - { label: "Title", name: "title", widget: "string" }
               - { label: "Text", name: "text", widget: "text" }
 
+          - label: "Business section"
+            name: "business"
+            widget: "object"
+            fields:
+              - { label: "Eyebrow", name: "eyebrow", widget: "string" }
+              - { label: "Heading", name: "heading", widget: "string" }
+              - label: "Commercial points"
+                name: "points"
+                widget: "list"
+                max: 3
+                fields:
+                  - { label: "Number / label", name: "num", widget: "string" }
+                  - { label: "Text", name: "title", widget: "string" }
+              - { label: "Support heading", name: "support_heading", widget: "string" }
+              - { label: "Support text", name: "support_text", widget: "text" }
+
           - label: "Gallery section"
             name: "space"
             widget: "object"
@@ -103,6 +112,8 @@ collections:
               - { label: "Eyebrow", name: "eyebrow", widget: "string" }
               - { label: "Heading", name: "heading", widget: "string" }
               - { label: "Intro", name: "intro", widget: "text" }
+              - { label: "Brochure button text", name: "brochure_text", widget: "string", required: false }
+              - { label: "Brochure link", name: "brochure_url", widget: "string", required: false }
               - label: "Photos (keep to 7, order matters for the layout)"
                 name: "gallery"
                 widget: "list"
@@ -125,6 +136,7 @@ collections:
 
           - { label: "Testimonials eyebrow", name: "testimonials_eyebrow", widget: "string" }
           - { label: "Testimonials heading", name: "testimonials_heading", widget: "string" }
+          - { label: "Google reviews link", name: "testimonials_google_url", widget: "string", required: false }
           - label: "Testimonials"
             name: "testimonials"
             widget: "list"
@@ -144,3 +156,12 @@ collections:
               - { label: "Email", name: "email", widget: "string" }
               - { label: "Phone", name: "phone", widget: "string" }
               - { label: "Address", name: "address", widget: "string" }
+
+          - label: "Social links"
+            name: "social"
+            widget: "object"
+            fields:
+              - { label: "Instagram URL", name: "instagram", widget: "string", required: false }
+              - { label: "Facebook URL", name: "facebook", widget: "string", required: false }
+              - { label: "YouTube URL", name: "youtube", widget: "string", required: false }
+              - { label: "WhatsApp number (digits only, no + or spaces)", name: "whatsapp", widget: "string", required: false }
