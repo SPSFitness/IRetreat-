@@ -126,8 +126,8 @@
   .avail .contactline a{color:var(--sand-soft);font-weight:600}
   .form{background:rgba(255,255,255,.05);border:1px solid var(--line-lt);border-radius:20px;padding:38px}
   .hp{position:absolute;left:-9999px}
-  .row{display:grid;grid-template-columns:1fr 1fr;gap:16px}
-  .field{margin-bottom:18px}
+  .row{display:grid;grid-template-columns:1fr 1fr;gap:16px;align-items:end}
+  .field{margin-bottom:18px;display:flex;flex-direction:column}
   .field label{display:block;font-size:.76rem;letter-spacing:.08em;text-transform:uppercase;color:rgba(245,241,232,.7);margin-bottom:8px}
   .field input,.field textarea,.field select{width:100%;background:rgba(255,255,255,.06);border:1px solid var(--line-lt);border-radius:10px;padding:13px 15px;color:#fff;font-family:inherit;font-size:.96rem;}
   .field select{appearance:none;-webkit-appearance:none;background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='8' viewBox='0 0 12 8'%3E%3Cpath fill='%23D9C6A6' d='M6 8L0 0h12z'/%3E%3C/svg%3E");background-repeat:no-repeat;background-position:right 15px center;padding-right:38px}
