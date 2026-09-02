@@ -15,11 +15,11 @@ hero:
     - num: 30 days
       label: Soft hold before payment
 strip:
-  - Yoga & meditation shala
-  - Saltwater pool & sauna
   - Fully-equipped gym
+  - Indoor & outdoor training spaces
+  - Pool, sauna & jacuzzi
+  - Fresh, flexible meals
   - Lisbon airport transfers
-  - Fresh, local menu
 intro_section:
   eyebrow: Why leaders choose iRetreat
   heading: Not just a venue, but a space built for transformation.
