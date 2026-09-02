@@ -74,7 +74,7 @@
   .fcard p{font-size:.98rem;color:var(--muted)}
   .biz{background:var(--cream-panel);padding:56px 0;text-align:center}
   .biz .wrap{border-top:1px solid var(--line);border-bottom:1px solid var(--line)}
-  .biz-head{max-width:24ch;margin:0 auto 36px;padding-top:56px}
+  .biz-head{max-width:40ch;margin:0 auto 36px;padding-top:56px}
   .biz-head h2{font-size:clamp(2rem,3.6vw,3rem);margin-top:12px}
   .biz-points{display:grid;grid-template-columns:repeat(3,1fr);gap:28px;padding-bottom:52px;margin-bottom:52px;border-bottom:1px solid var(--line)}
   .biz-point{display:flex;flex-direction:column;align-items:center}
