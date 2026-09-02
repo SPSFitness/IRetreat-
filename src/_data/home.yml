@@ -55,10 +55,12 @@ features:
     text: Surrounded by forest and farmland with no neighbours around, your group
       can leave the noise and everyday routine behind.
 space:
-  eyebrow: The space
-  heading: Silence, green hills, and clean air.
-  intro: A private hillside setting designed to support group flow, whether your
-    retreat is energising, restorative, or both.
+  eyebrow: The Retreat Space
+  heading: Everything your retreat needs, in one place.
+  intro: Train, recover, eat, relax and spend time together without having to move
+    your group between different locations. From the gym and outdoor training
+    spaces to the pool, shared areas and accommodation, the whole property is
+    yours for the retreat.
   gallery:
     - image: /images/pool-night.jpg
       caption: The pool, after dark
