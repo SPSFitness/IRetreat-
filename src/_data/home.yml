@@ -68,14 +68,14 @@ space:
       caption: Outdoor group training
     - image: /images/gym-battle-ropes.webp
       caption: Fully-equipped gym
-    - image: /images/food.jpg
-      caption: Fresh, local food
-    - image: /images/sauna.jpg
-      caption: Infrared sauna
-    - image: /images/lounge.jpg
-      caption: Lounge & dining
-    - image: /images/firepit.jpg
-      caption: Fire pit evenings
+    - image: /images/quiet-deck.webp
+      caption: Time together in nature
+    - image: /images/pool-at-night.webp
+      caption: Pool after dark
+    - image: /images/indoor-dining.webp
+      caption: Shared lounge & dining
+    - image: /images/twin-room.webp
+      caption: Guest accommodation
 how_eyebrow: How it works
 how_heading: Four steps from idea to retreat.
 how:
