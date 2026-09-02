@@ -77,20 +77,26 @@ space:
     - image: /images/twin-room.webp
       caption: Guest accommodation
 how_eyebrow: How it works
-how_heading: Four steps from idea to retreat.
+how_heading: See if iRetreat is right for you
 how:
   - num: "01"
-    title: Choose your dates
-    text: Check availability and lock in the week that works for you and your group.
+    title: Tell us about your retreat
+    text: Share a few details about you, your community and the retreat you're
+      planning so we can see if iRetreat could be a good fit.
   - num: "02"
-    title: Promote your retreat
-    text: Fill your places with our imagery, brochures and host resources behind you.
+    title: Have a conversation
+    text: We'll get in touch to arrange a quick conversation, learn more about your
+      plans, answer any questions and make sure the venue is right for your
+      retreat.
   - num: "03"
-    title: Plan with support
-    text: Menus, transfers and schedule, planned together and handled for you.
+    title: Hold your dates
+    text: If we're aligned on everything, we'll hold your chosen dates for 30 days
+      with no payment required.
   - num: "04"
-    title: Arrive and lead
-    text: Turn up to a space that's ready, and do the work only you can do.
+    title: Confirm your retreat
+    text: After 30 days, we'll check in on how things are going. If we're both ready
+      to move forward, a 10% deposit secures your dates, and we'll support you
+      with promotional resources and planning.
 testimonials_eyebrow: What hosts say
 testimonials_heading: Retreats they're proud to run.
 testimonials:
