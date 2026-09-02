@@ -60,19 +60,23 @@
   </div>
 </section>
 
-<section class="biz wrap" id="biz">
-  <div class="biz-head">
-    <span class="eyebrow">{{ home.business.eyebrow }}</span>
-    <h2>{{ home.business.heading }}</h2>
-  </div>
-  <div class="biz-points">
-    {% for p in home.business.points %}
-    <div class="biz-point"><span class="bn">{{ p.num }}</span><p>{{ p.title }}</p></div>
-    {% endfor %}
-  </div>
-  <div class="biz-support">
-    <h3>{{ home.business.support_heading }}</h3>
-    <p>{{ home.business.support_text }}</p>
+<section class="biz" id="biz">
+  <div class="wrap">
+    <div class="biz-box">
+      <div class="biz-head">
+        <span class="eyebrow">{{ home.business.eyebrow }}</span>
+        <h2>{{ home.business.heading }}</h2>
+      </div>
+      <div class="biz-points">
+        {% for p in home.business.points %}
+        <div class="biz-point"><span class="bn">{{ p.num }}</span><p>{{ p.title }}</p></div>
+        {% endfor %}
+      </div>
+      <div class="biz-support">
+        <h3>{{ home.business.support_heading }}</h3>
+        <p>{{ home.business.support_text }}</p>
+      </div>
+    </div>
   </div>
 </section>
 
@@ -217,5 +221,3 @@
     });
   }
 </script>
-</body>
-</html>
