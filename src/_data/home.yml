@@ -54,6 +54,20 @@ features:
     title: Away from it all
     text: Surrounded by forest and farmland with no neighbours around, your group
       can leave the noise and everyday routine behind.
+business:
+  eyebrow: Built for your business
+  heading: A retreat should pay off for you too.
+  points:
+    - num: 30 days
+      title: Hold your dates before payment
+    - num: Same price
+      title: Across the retreat season
+    - num: Clear costs
+      title: No hidden fees, so you can work out your margin from the start
+  support_heading: Run the retreat, not the venue.
+  support_text: While you focus on filling your places and running your programme,
+    Andrew and Rosie take care of accommodation, meals, airport transfers,
+    excursions and the day-to-day hosting.
 space:
   eyebrow: The Retreat Space
   heading: Everything your retreat needs, in one place.
@@ -61,6 +75,8 @@ space:
     your group between different locations. From the gym and outdoor training
     spaces to the pool, shared areas and accommodation, the whole property is
     yours for the retreat.
+  brochure_text: Explore our retreat brochure
+  brochure_url: https://canva.link/90nf6ed4uk657wr
   gallery:
     - image: /images/overview-of-iretreat.webp
       caption: Your private retreat venue
@@ -99,6 +115,7 @@ how:
       with promotional resources and planning.
 testimonials_eyebrow: What hosts say
 testimonials_heading: What it’s like to host at iRetreat
+testimonials_google_url: https://www.google.com/search?q=iretreat+portugal#lrd=0xd22878bac75d007:0x2d1848bec8d08676,1
 testimonials:
   - quote: >-
       I hosted my Bootcamp & Fitness Wellness Retreat at iRetreat in April 2026,
@@ -147,3 +164,8 @@ availability:
   email: info@iretreat.pt
   phone: +351 961 051 487
   address: R. da Tojeira, 3250-330 Pelmá, Portugal
+social:
+  instagram: https://www.instagram.com/iretreat.pt/
+  facebook: https://www.facebook.com/iretreat.pt
+  youtube: https://www.youtube.com/@iRetreatPortugal-vv5zc
+  whatsapp: "351961051487"
