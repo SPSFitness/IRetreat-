@@ -66,23 +66,23 @@
   .why{padding-bottom:44px;text-align:center}
   .why-head{max-width:40ch;margin:0 auto 36px}
   .why-head h2{font-size:clamp(2.2rem,4vw,3.4rem);margin-top:14px}
-  .fgrid{display:grid;grid-template-columns:repeat(3,1fr);gap:22px}
+  .fgrid{display:grid;grid-template-columns:repeat(3,1fr);gap:22px;text-align:left}
   .fcard{background:var(--cream-panel);border:1px solid var(--line);border-radius:16px;padding:28px 28px 30px;transition:transform .3s ease, box-shadow .3s ease;display:flex;flex-direction:column}
   .fcard:hover{transform:translateY(-4px);box-shadow:0 18px 40px -24px rgba(28,50,39,.4)}
   .fcard .k{font-family:'Bricolage Grotesque',sans-serif;font-weight:700;font-size:1.15rem;color:var(--sand-deep);display:block;margin-bottom:12px}
   .fcard h3{font-size:1.7rem;margin-bottom:10px}
   .fcard p{font-size:.98rem;color:var(--muted)}
-  .biz{background:var(--cream-panel);padding:56px 0;text-align:center}
-  .biz .wrap{border-top:1px solid var(--line);border-bottom:1px solid var(--line)}
-  .biz-head{max-width:40ch;margin:0 auto 28px;padding-top:48px}
+  .biz{padding:44px 0}
+  .biz-box{background:var(--cream-panel);border-radius:24px;padding:52px clamp(24px,5vw,72px);text-align:center}
+  .biz-head{max-width:40ch;margin:0 auto 28px}
   .biz-head h2{font-size:clamp(2rem,3.6vw,3rem);margin-top:12px}
-  .biz-points{display:grid;grid-template-columns:repeat(3,1fr);gap:28px;padding:8px 0 40px;margin-bottom:40px;border-bottom:1px solid var(--line)}
+  .biz-points{display:grid;grid-template-columns:repeat(3,1fr);gap:28px;margin-bottom:38px}
   .biz-point{display:flex;flex-direction:column;align-items:center}
   .biz-point .bn{font-family:'Bricolage Grotesque',sans-serif;font-weight:700;font-size:1.05rem;letter-spacing:.06em;text-transform:uppercase;color:var(--sand-deep);display:block;margin-bottom:8px}
   .biz-point p{font-size:1rem;color:var(--muted);max-width:26ch}
-  .biz-support{background:#fff;border-radius:18px;padding:34px 44px;max-width:720px;margin:0 auto 48px}
+  .biz-support{max-width:60ch;margin:0 auto}
   .biz-support h3{font-size:clamp(1.5rem,2.6vw,2rem);margin-bottom:12px}
-  .biz-support p{font-size:1.05rem;color:var(--muted);max-width:60ch;margin:0 auto}
+  .biz-support p{font-size:1.05rem;color:var(--muted);margin:0 auto}
   .space{background:var(--green);color:var(--cream);padding:56px 0}
   .space .eyebrow{color:var(--sand-soft)}
   .space-head{display:flex;justify-content:space-between;align-items:flex-start;gap:24px;flex-wrap:wrap;margin-bottom:34px}
@@ -97,10 +97,10 @@
   .bento figcaption{position:absolute;left:20px;bottom:18px;z-index:2;font-family:'Bricolage Grotesque',sans-serif;font-weight:600;font-size:1.25rem;letter-spacing:-.01em;color:#fff;text-shadow:0 2px 12px rgba(0,0,0,.45)}
   .space-cta{margin-top:34px;text-align:center}
   .how{padding-top:56px;padding-bottom:56px}
-  .how-head{max-width:40ch;margin:0 auto 40px;text-align:center}
+  .how-head{max-width:40ch;margin-bottom:40px}
   .how-head h2{font-size:clamp(2.2rem,4vw,3.4rem);margin-top:14px}
   .steps{display:grid;grid-template-columns:repeat(4,1fr);gap:34px}
-  .step{position:relative;padding-top:26px;border-top:2px solid var(--line);text-align:center}
+  .step{position:relative;padding-top:26px;border-top:2px solid var(--line)}
   .step.active{border-top-color:var(--sand)}
   .step .num{font-family:'Bricolage Grotesque',sans-serif;font-weight:800;font-size:3rem;color:var(--green);line-height:.9;display:block;margin-bottom:16px}
   .step h3{font-size:1.5rem;margin-bottom:8px}
@@ -187,11 +187,11 @@
     .strip span{font-size:.92rem}
     .intro{padding-top:44px;padding-bottom:44px}
     .why{padding-bottom:36px}
-    .biz{padding:44px 0}
-    .biz-head{padding-top:40px;margin-bottom:24px}
-    .biz-points{grid-template-columns:1fr;gap:24px;padding:4px 0 30px;margin-bottom:30px}
+    .biz{padding:28px 0}
+    .biz-box{padding:40px 24px}
+    .biz-head{margin-bottom:22px}
+    .biz-points{grid-template-columns:1fr;gap:22px;margin-bottom:28px}
     .biz-point p{max-width:100%}
-    .biz-support{padding:28px 24px;margin-bottom:40px}
     .space{padding:48px 0}
     .how{padding-top:48px;padding-bottom:48px}
     .quotes{padding:48px 0}
