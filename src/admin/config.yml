@@ -114,11 +114,11 @@ collections:
               - { label: "Intro", name: "intro", widget: "text" }
               - { label: "Brochure button text", name: "brochure_text", widget: "string", required: false }
               - { label: "Brochure link", name: "brochure_url", widget: "string", required: false }
-              - label: "Photos (keep to 7, order matters for the layout)"
+              - label: "Photos (order affects the layout — aim for a multiple of 3)"
                 name: "gallery"
                 widget: "list"
-                min: 7
-                max: 7
+                min: 3
+                max: 12
                 fields:
                   - { label: "Photo", name: "image", widget: "image" }
                   - { label: "Caption", name: "caption", widget: "string" }
