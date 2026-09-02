@@ -63,11 +63,11 @@
   .intro h2{font-size:clamp(2.4rem,4.6vw,4rem);max-width:20ch;margin:12px auto 0;line-height:1.05}
   .intro h2 em{font-style:normal;color:var(--sand-deep)}
   .intro .lede{max-width:58ch;margin:18px auto 0;font-size:1.1rem;color:var(--muted)}
-  .why{padding-bottom:44px}
-  .why-head{max-width:34ch;margin-bottom:36px}
+  .why{padding-bottom:44px;text-align:center}
+  .why-head{max-width:40ch;margin:0 auto 36px}
   .why-head h2{font-size:clamp(2.2rem,4vw,3.4rem);margin-top:14px}
   .fgrid{display:grid;grid-template-columns:repeat(3,1fr);gap:22px}
-  .fcard{background:var(--cream-panel);border:1px solid var(--line);border-radius:16px;padding:28px 28px 30px;transition:transform .3s ease, box-shadow .3s ease;}
+  .fcard{background:var(--cream-panel);border:1px solid var(--line);border-radius:16px;padding:28px 28px 30px;transition:transform .3s ease, box-shadow .3s ease;display:flex;flex-direction:column}
   .fcard:hover{transform:translateY(-4px);box-shadow:0 18px 40px -24px rgba(28,50,39,.4)}
   .fcard .k{font-family:'Bricolage Grotesque',sans-serif;font-weight:700;font-size:1.15rem;color:var(--sand-deep);display:block;margin-bottom:12px}
   .fcard h3{font-size:1.7rem;margin-bottom:10px}
