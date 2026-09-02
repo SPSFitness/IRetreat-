@@ -97,7 +97,7 @@
   .bento figcaption{position:absolute;left:20px;bottom:18px;z-index:2;font-family:'Bricolage Grotesque',sans-serif;font-weight:600;font-size:1.25rem;letter-spacing:-.01em;color:#fff;text-shadow:0 2px 12px rgba(0,0,0,.45)}
   .space-cta{margin-top:34px;text-align:center}
   .how{padding-top:56px;padding-bottom:56px}
-  .how-head{max-width:26ch;margin-bottom:40px}
+  .how-head{max-width:40ch;margin-bottom:40px}
   .how-head h2{font-size:clamp(2.2rem,4vw,3.4rem);margin-top:14px}
   .steps{display:grid;grid-template-columns:repeat(4,1fr);gap:34px}
   .step{position:relative;padding-top:26px;border-top:2px solid var(--line)}
