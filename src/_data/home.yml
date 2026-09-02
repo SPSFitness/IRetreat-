@@ -100,6 +100,22 @@ how:
 testimonials_eyebrow: What hosts say
 testimonials_heading: What it’s like to host at iRetreat
 testimonials:
+  - quote: >-
+      I hosted my Bootcamp & Fitness Wellness Retreat at iRetreat in April 2026,
+      run by Andrew and Rosie, and it was an excellent experience from start to
+      finish. The accommodation was comfortable, and the venue itself is
+      impressively spacious with various areas for us to use. Beautifully set in
+      a serene and peaceful part of central Portugal, which was ideal for
+      switching off and focusing on fitness and wellbeing.
+
+
+      Andrew and Rosie were incredibly attentive throughout, always on hand to support the needs of the group. The catering was a real highlight: high quality, thoughtfully prepared, and flexible enough to accommodate a range of dietary requirements without any issues.
+
+      What really sets iRetreat apart is its warm, family-run atmosphere. It has a genuinely homely and relaxed feel, which made everyone feel welcome right away. There’s also plenty to explore on the grounds, from animals to an abundance of homegrown fruit and vegetables, adding to the overall charm of the place.
+
+      All in all, our group had a fantastic time. If you’re looking for a peaceful, well-equipped venue with ample space to host any kind of retreat, iRetreat is a strong choice - you won't be disappointed!
+    name: Paula Watson Zumba
+    country: UK
   - quote: The perfect place for a complete get away from it all. Andrew, Rosie and
       Sofia (and Rosie the dog and Nero) made us feel so welcome in their
       beautiful home. We were a group of 11 women on a 5 night stay for a
@@ -123,27 +139,11 @@ testimonials:
       Thanks Andrew , Rosie and Sophia for making our stay very special
     name: Jacqui Pickles
     country: UK
-  - quote: >-
-      I hosted my Bootcamp & Fitness Wellness Retreat at iRetreat in April 2026,
-      run by Andrew and Rosie, and it was an excellent experience from start to
-      finish. The accommodation was comfortable, and the venue itself is
-      impressively spacious with various areas for us to use. Beautifully set in
-      a serene and peaceful part of central Portugal, which was ideal for
-      switching off and focusing on fitness and wellbeing.
-
-
-      Andrew and Rosie were incredibly attentive throughout, always on hand to support the needs of the group. The catering was a real highlight: high quality, thoughtfully prepared, and flexible enough to accommodate a range of dietary requirements without any issues.
-
-      What really sets iRetreat apart is its warm, family-run atmosphere. It has a genuinely homely and relaxed feel, which made everyone feel welcome right away. There’s also plenty to explore on the grounds, from animals to an abundance of homegrown fruit and vegetables, adding to the overall charm of the place.
-
-      All in all, our group had a fantastic time. If you’re looking for a peaceful, well-equipped venue with ample space to host any kind of retreat, iRetreat is a strong choice - you won't be disappointed!
-    name: Paula Watson Zumba
-    country: UK
 availability:
-  eyebrow: Plan your retreat
-  heading: Check your dates for 2026 & 2027.
-  intro: Tell us who you are and when you'd like to host. We'll come back quickly
-    with availability and a straightforward next step.
+  eyebrow: Get In Touch
+  heading: Tell us about the retreat you're planning.
+  intro: Share a few details with us and we'll get in touch to talk about your
+    retreat and see if iRetreat is the right fit.
   email: info@iretreat.pt
   phone: +351 961 051 487
   address: R. da Tojeira, 3250-330 Pelmá, Portugal
