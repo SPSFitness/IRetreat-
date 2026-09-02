@@ -64,6 +64,8 @@ space:
   gallery:
     - image: /images/overview-of-iretreat.webp
       caption: Your private retreat venue
+    - image: /images/roof-terrace.webp
+      caption: Outdoor group training
     - image: /images/gym-battle-ropes.webp
       caption: Fully-equipped gym
     - image: /images/food.jpg
@@ -74,8 +76,6 @@ space:
       caption: Lounge & dining
     - image: /images/firepit.jpg
       caption: Fire pit evenings
-    - image: /images/kitchen.jpg
-      caption: The kitchen
 how_eyebrow: How it works
 how_heading: Four steps from idea to retreat.
 how:
