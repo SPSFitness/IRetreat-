@@ -148,7 +148,7 @@
       </div>
       <div class="row">
         <div class="field"><label>Expected group size</label><input type="text" name="group_size" placeholder="Up to 16 guests"></div>
-        <div class="field"><label>Do you have an existing community or client base you could invite?</label>
+        <div class="field"><label>Do you have an existing client base?</label>
           <select name="existing_community">
             <option value="Yes">Yes</option>
             <option value="Currently building one">I'm currently building one</option>
@@ -206,7 +206,6 @@
   const io=new IntersectionObserver((es)=>{es.forEach(e=>{if(e.isIntersecting){e.target.classList.add('in');io.unobserve(e.target)}})},{threshold:.14});
   document.querySelectorAll('.reveal').forEach(el=>io.observe(el));
 
-  // Netlify form: submit without leaving the page
   var f=document.querySelector('form[data-netlify]');
   if(f){
     f.addEventListener('submit',function(e){
