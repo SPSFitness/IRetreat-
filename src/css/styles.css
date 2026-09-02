@@ -85,9 +85,9 @@
   .biz-support p{font-size:1.05rem;color:var(--muted);max-width:60ch;margin:0 auto}
   .space{background:var(--green);color:var(--cream);padding:56px 0}
   .space .eyebrow{color:var(--sand-soft)}
-  .space-head{display:flex;justify-content:space-between;align-items:flex-end;gap:24px;flex-wrap:wrap;margin-bottom:34px}
+  .space-head{display:flex;justify-content:space-between;align-items:flex-start;gap:24px;flex-wrap:wrap;margin-bottom:34px}
   .space-head h2{color:var(--cream);font-size:clamp(2.4rem,4.6vw,3.8rem);max-width:12ch;margin-top:14px}
-  .space-head p{max-width:40ch;color:rgba(245,241,232,.78);font-size:1.05rem}
+  .space-head p{max-width:40ch;color:rgba(245,241,232,.78);font-size:1.05rem;margin-top:44px}
   .bento{display:grid;grid-template-columns:repeat(3,1fr);gap:16px}
   .bento figure{position:relative;overflow:hidden;border-radius:16px;background:var(--green-deep);aspect-ratio:4/3}
   .bento img{width:100%;height:100%;object-fit:cover;display:block;transition:transform 1.1s cubic-bezier(.2,.7,.2,1)}
@@ -166,6 +166,7 @@
     .biz-points{grid-template-columns:1fr 1fr;gap:24px}
     .steps{grid-template-columns:1fr 1fr;gap:28px 40px}
     .qgrid{grid-template-columns:1fr}
+    .space-head p{margin-top:16px}
     .avail-grid{grid-template-columns:1fr;gap:44px}
     .bento{grid-template-columns:repeat(2,1fr)}
   }
